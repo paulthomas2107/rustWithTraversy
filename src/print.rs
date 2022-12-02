@@ -14,4 +14,13 @@ pub fn run() {
         name = "Paul",
         instrument = "Guitar"
     );
+
+    // Traits
+    println!("Binary:{:b} Hex:{:x} Octal:{:o}", 10, 10, 10);
+
+    // Debug Trait - tuple
+    println!("{:?}", (12, true, "Paul"));
+
+    // Basic Maths
+    println!("10 + 10 = {}", 10 + 10);
 }
